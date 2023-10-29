@@ -6,6 +6,18 @@ html, body {
   overflow-x: hidden;
 }
 
+.navbar-nav {
+  display: flex;
+  justify-content: right;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-nav a:last-child {
+  color: green;
+}
 
 .img-honolulu {
   width: 50vw;
