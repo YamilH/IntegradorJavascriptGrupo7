@@ -1,4 +1,22 @@
+*,
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
+
+.img-honolulu {
+  width: 50vw;
+  height: auto;
+  object-fit: cover;
+}
+@media (max-width: 991px) {
+  .img-honolulu {
+  width: 100vw;
+  }
+}
 
 
 
