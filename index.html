@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>IntegradorJavascriptGrupo7</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>IntegradorJavascriptGrupo7</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
 <body>
 
 <!-- NAVBAR -->
-
+<header>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1"><a href="./index.html"><img src="./media/codoacodo.png" alt="Logo" width="130" height="75"></a>Conf Bs As
+      </span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+         <div class="navbar-nav">
+           <a class="nav-link active" aria-current="page" href="#conference">La conferencia</a>
+          <a class="nav-link" href="#speakers">Los oradores</a>
+          <a class="nav-link" href="#place">El lugar y la fecha</a>
+          <a class="nav-link" href="#join">Conviértete en orador</a>
+           <a class="nav-link" href="./ticket.html">Comprar tickets</a>
+         </div>
+       </div>
+     </div>
+   </nav>
+</header>
 <!-- /NAVBAR -->
 
 
@@ -25,7 +44,27 @@
 
 
 <!-- LUGAR -->
-
+<section id="lugarfecha" class="mt-4 mb-4">
+  <div class="row">
+    <div class="col-lg-6 d-none d-lg-block">
+      <img src="media/honolulu.jpg" alt="Imagen" class="img-honolulu">
+    </div>
+    <div class="col-lg-6 bg-dark d-none d-lg-block">
+      <h3 class="text-white p-4">Bs As - Octubre</h3>
+      <p class="text-white p-4">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al área urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).</p>
+      <button class="btn btn-primary m-4">Conocé más</button>
+    </div>
+    <!-- version responsive -->
+    <div class="col-12 mt-4 d-lg-none">
+      <img src="media/honolulu.jpg" alt="Imagen" class="img-honolulu">
+    </div>
+    <div class="col-12 bg-dark d-lg-none">
+      <h3 class="text-white p-4">Bs As - Octubre</h3>
+      <p class="text-white p-4">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al área urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).</p>
+      <button class="btn btn-primary m-4">Conocé más</button>
+    </div>
+  </div>
+</section>
 <!-- /LUGAR -->
 
 
@@ -35,7 +74,15 @@
 
 
 <!-- FOOTER -->
-
+<div class="footer">
+  <a href="#">Preguntas frecuentes</a>
+  <a href="#">Contactanos</a>
+  <a href="#">Prensa</a>
+  <a href="#">conferencias</a>
+  <a href="#">Términos y condiciones</a>
+  <a href="#">Privacidad</a>
+  <a href="#">Estudiantes</a>
+</div>
 <!-- /FOOTER -->
   
 
