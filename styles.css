@@ -31,6 +31,13 @@ html, body {
 }
 
 
+#formButtom{
+  background-color: #96C21D;
+  color: white;
+  display: inline-block;
+}
+
+
 
 .footer {
     display: flex;
