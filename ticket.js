@@ -4,7 +4,7 @@ let trainee = 0.5;
 let junior = 0.85;
 let ticket = 200;
 
-function multiplicarEntradas(cantidad,ticket){
+function multEntradas(cantidad,ticket){
      let totalDescuento = cantidad*ticket;
      return totalDescuento;
 }
@@ -13,13 +13,13 @@ function resumen(){
     let cantidad = document.getElementById('cantidad').value;
     let categoria = document.getElementById('categoria').value;
     if (categoria == "estudiante"){
-        totalPagar.innerHTML = multiplicarEntradas(cantidad,ticket)*estudiante;
+        totalPagar.innerHTML = multEntradas(cantidad,ticket)*estudiante;
     } 
     else if (categoria == "trainee"){
-        totalPagar.innerHTML = multiplicarEntradas(cantidad,ticket)*trainee;
+        totalPagar.innerHTML = multEntradas(cantidad,ticket)*trainee;
     }
     else if (categoria == "junior"){
-        totalPagar.innerHTML = multiplicarEntradas(cantidad,ticket)*junior;
+        totalPagar.innerHTML = multEntradas(cantidad,ticket)*junior;
     }
 }
 
