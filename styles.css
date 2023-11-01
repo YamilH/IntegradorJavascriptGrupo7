@@ -84,10 +84,10 @@ h1,h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 
-#formButtom{
-  background-color: #96C21D;
-  color: white;
-  display: inline-block;
+.formButton{
+  background-color: #96C21D !important;
+  color: white !important;
+  display: inline-block !important;
 }
 
 
