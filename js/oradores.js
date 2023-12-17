@@ -1,4 +1,5 @@
 crearOperador = () => {
+  debugger;
   const orador = {
        nombre:  document.getElementById("nombre").value,
        apellido: document.getElementById("apellido").value,
